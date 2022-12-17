@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ html {
 }
 
 a {
-  color: #240046;
+  color: #f72585;
 }
 a:hover {
   color: #ef233c;
@@ -27,9 +27,19 @@ main h1 {
   color: #f72585;
   margin-bottom: 10px;
   margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 main p {
   padding-top: 5px;
+}
+main label {
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main ul {
+  list-style: none;
+  font-size: 20px;
 }
 
 .container.nav {
@@ -44,7 +54,7 @@ nav {
   justify-content: space-around;
 }
 nav-link {
-  color: #240046;
+  color: #f72585;
 }
 nav-link.active {
   color: #d90429 !important;
@@ -59,14 +69,14 @@ nav a:hover {
 }
 
 .navBackground {
-  background-color: #f72585;
+  background-color: #7209b7;
   position: static;
   top: 0px;
 }
 
 footer {
   margin-top: 20px;
-  background-color: #f72585;
+  background-color: #7209b7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,19 +115,19 @@ footer {
   align-items: center;
 }
 .iframe h2 {
-  color: #f72585;
+  color: #7209b7;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #240046;
+  color: #f72585;
 }
 
 .btn {
-  background-color: #f72585;
-  color: #240046;
+  background-color: #7209b7;
+  color: #f72585;
 }
 .btn:hover {
-  background-color: #240046 !important;
+  background-color: #f72585 !important;
   color: #d90429 !important;
 }
 

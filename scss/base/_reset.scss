@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -25,13 +25,25 @@ main {
     margin: 20px;
 
     & h1{
-        color: $color-four;
+        color: $color-first;
         margin-bottom: 10px;
         margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
     }
 
     & p{
         padding-top: 5px;
+    }
+
+    & label{
+        font-size: 24px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    & ul{
+        list-style: none;
+        font-size: 20px;
     }
 }
 
